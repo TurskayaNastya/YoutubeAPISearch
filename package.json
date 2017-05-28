@@ -1,0 +1,54 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "rolling scope school task",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack",
+    "watch": "webpack -w --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "master"
+  },
+  "keywords": [
+    "youtube"
+  ],
+  "author": "Nastya",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^3.5.0",
+    "webpack": "^1.13.2",
+    "yargs": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.0",
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-1": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "css-loader": "^0.26.4",
+    "eslint": "^3.7.1",
+    "eslint-loader": "^1.5.0",
+    "exports-loader": "^0.6.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "imports-loader": "^0.7.0",
+    "node-sass": "^4.0.0",
+    "postcss-loader": "^1.2.1",
+    "resolve-url-loader": "^1.6.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack-dev-server": "^1.16.1"
+  }
+}

@@ -1,0 +1,56 @@
+.wrapper {
+  width:90%;
+  display: block;
+  float: left;
+  padding: 5%;
+  border-radius: 3px;
+}
+
+.wrapper img{
+  width:100%;
+}
+
+.wrapper a{
+  font-family: Arial,Helvetica,sans-serif!important;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.title{
+  padding: 1%;
+  background-color: #4C5A65;
+  height: 50px;
+  text-overflow: clip;
+  line-height: 19px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.description {
+  overflow: hidden;
+  height: 100px;
+  line-height: 16px;
+  font-family: Arial,Helvetica,sans-serif!important;
+  font-size: 11px!important;
+  text-align: justify;
+}
+
+.viewCount{
+  text-align: left;
+  font-size: 14px;
+  color:#cccccc;
+  margin: 6px 0;
+}
+
+.viewCount p{
+  float:right;
+}
+
+.author{
+  text-align: center;
+  color:#44627c;
+  margin:3px 0;
+  font-weight: 600;
+  font-size: 15px;
+}
+

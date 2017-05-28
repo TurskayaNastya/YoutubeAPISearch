@@ -1,0 +1,141 @@
+.search{
+	background-color:#4C5A65;
+	padding:5% 5%;
+	margin:10% 0;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	width: 90%;
+}
+
+.searchWrap{
+	position: relative;
+	color: #aaa;
+	font-size: 16px;
+	width: 90%;
+	margin: 0px 5%;
+}
+
+.searchWrap .fa-search{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#searchForm input[type = "text"], #searchForm input[type = "text"]:focus{
+	border: none;
+	color: #888888;
+	float: left;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	height: 36px;
+	line-height: 36px;
+	margin-right: 3%;
+	outline: medium none;
+	padding: 0 0 0 3%;
+	text-shadow: 1px 1px 0 white;
+	width: 70%;
+	border-radius: 3px;
+	background: #fcfcfc;
+	border: 1px solid #aaa;
+	box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+	text-indent: 4%;
+}
+
+#searchForm input[type = "submit"]{
+	background-color:#cccccc;
+	width: 17%;
+	height: 38px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color:#888888;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+	#searchForm input[type = "text"], #searchForm input[type = "text"]:focus{
+		text-indent: 20px;
+	}
+
+	#searchForm input[type = "submit"]{
+		width:22%;
+		font-size: 11px;
+	}
+
+	.search {
+		margin-top: 25%;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.search {
+		padding: 3% 3%;
+		margin: 3% 0;
+		border-radius: 16px;
+		width: 94%;
+	}
+
+	#searchForm input[type = "text"], #searchForm input[type = "text"]:focus{
+		font-size: 14px;
+		line-height: 2;
+		text-indent: 20px;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+	.search {
+		padding: 3% 3%;
+		margin: 3% 0;
+		border-radius: 16px;
+		width: 94%;
+	}
+
+	#searchForm input[type = "text"], #searchForm input[type = "text"]:focus{
+		font-size: 14px;
+		line-height: 2;
+		text-indent: 20px;
+	}
+}
+
+@media all and (min-width: 992px) {
+	.search {
+		padding: 3% 3%;
+		margin: 3% 0;
+		border-radius: 16px;
+		width: 94%;
+	}
+
+	#searchForm input[type = "text"], #searchForm input[type = "text"]:focus{
+		font-size: 14px;
+		line-height: 2;
+		text-indent: 20px;
+	}
+
+	#searchForm input[type = "submit"]{
+
+	}
+}
+
+@media all and (min-width: 1200px) {
+	.search {
+		padding: 3% 3%;
+		margin: 3% 0;
+		border-radius: 16px;
+		width: 94%;
+	}
+
+	#searchForm input[type = "text"], #searchForm input[type = "text"]:focus{
+		font-size: 14px;
+		line-height: 2;
+		text-indent: 20px;
+
+	}
+}
+
+
+
+
+
+
+
